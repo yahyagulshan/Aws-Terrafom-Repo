@@ -71,8 +71,7 @@ provider "aws" {
 data "aws_availability_zones" "available" {}
 
 locals {
-  # name   = "ex-${basename(path.cwd)}"
-  # name   = "test-vpc-staging-env"
+
   name   = "test-vpc"
   region = "us-east-1"
 
@@ -80,10 +79,10 @@ locals {
   azs      = slice(data.aws_availability_zones.available.names, 0, 1)
 
 
-  # tags = {
-  #   Example    = local.name
-  #   GithubRepo = "terraform-aws-vpc"
-  #   GithubOrg  = "terraform-aws-modules"
-  # }
+   tags = {
+     Example    = test.name
+     GithubRepo = "terraform-aws-vpc"
+     GithubOrg  = "terraform-aws-modules"
+   }
 }
 
