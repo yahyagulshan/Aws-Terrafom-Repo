@@ -80,9 +80,9 @@ locals {
 
 
    tags = {
-     Example    = test.name
-     GithubRepo = "terraform-aws-vpc"
-     GithubOrg  = "terraform-aws-modules"
+  #   Example    = test.name
+  #   GithubRepo = "terraform-aws-vpc"
+  #   GithubOrg  = "terraform-aws-modules"
    }
 }
 
