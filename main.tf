@@ -79,10 +79,10 @@ locals {
   azs      = slice(data.aws_availability_zones.available.names, 0, 1)
 
 
-   tags = {
+  # tags = {
   #   Example    = test.name
   #   GithubRepo = "terraform-aws-vpc"
   #   GithubOrg  = "terraform-aws-modules"
-   }
+  # }
 }
 
