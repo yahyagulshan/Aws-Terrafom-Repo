@@ -21,3 +21,4 @@ variable "security_group" {
   description = "ID of the security group attached to the EC2 instance"
   type        = string
 }
+

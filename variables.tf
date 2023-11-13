@@ -20,6 +20,14 @@ variable "key_name" {
   
 }
 
+variable "cidr_blocks" {
+  type = string
+  default = ""
+  
+}
+
+
+
 # Add other variables as needed
 
 # Add other variables as needed
