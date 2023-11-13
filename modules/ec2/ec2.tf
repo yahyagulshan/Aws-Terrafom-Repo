@@ -6,9 +6,6 @@ resource "aws_instance" "main" {
   vpc_security_group_ids = [var.security_group]
   security_groups = [var.security_group]
   # Add other necessary configuration for your EC2 instance
-    tags = {
-    Name = "My-Instance"
-  }
 }
 
 output "ec2_instance_id" {

@@ -16,17 +16,9 @@ variable "instance_type" {
 
 variable "key_name" {
   type = string
-  default = "yahya-test-key-pair"
+  default = "test-key-pair"
   
 }
-
-variable "cidr_blocks" {
-  type = string
-  default = ""
-  
-}
-
-
 
 # Add other variables as needed
 
