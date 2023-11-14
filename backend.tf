@@ -5,7 +5,7 @@ terraform {
 	}
 }
 
-
+## for S3 backend ##
 # terraform {
 #   backend "s3" {
 #     encrypt = true
