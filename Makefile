@@ -5,7 +5,7 @@ us-east-1-test-account:
 	$(eval export AWS_PROFILE=test-account)
 	$(eval export AWS_REGION=us-east-1)
 	# $(eval export AWS_DYNAMODB_TABLE=terraform-backend.lock)
-	# $(eval export AWS_S3_BUCKET=yahya-test-terraform-242348993)
+	# $(eval export AWS_S3_BUCKET=test-terraform-242348993)
 	$(eval export ENV_NAME=admin)
 	@true
 
