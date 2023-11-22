@@ -12,7 +12,3 @@ terraform {
 #     key     = "terraform.tfstate"
 #   }
 # }
-
-# terraform {
-#   backend "local" {}
-# }
